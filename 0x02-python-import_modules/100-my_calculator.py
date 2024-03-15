@@ -10,7 +10,7 @@ if __name__ == "__main__":
     b = int(argv[3])
     operator = argv([2])
     if operator == '+':
-        print(f"{a} {operator} {b} = {add(a, b)}")
+        print("{} + {} = {}".format(a, b, add(a, b)))
     elif operator == "-":
         print(f"{a} {operator} {b} = {sub(a, b)}")
     elif operator == "*":
