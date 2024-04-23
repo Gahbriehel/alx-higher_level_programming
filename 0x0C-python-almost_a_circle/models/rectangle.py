@@ -138,4 +138,3 @@ class Rectangle(Base):
 
     def __str__(self):
         """Returns the string representation of the rectangle"""
-
