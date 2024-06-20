@@ -8,13 +8,15 @@
  */
 let arg = process.argv[2];
 arg = parseInt(arg);
-if (!arg) {
-	console.log('Missing size');
+if (arg) {
+  if (arg > 0) {
+    for (let i = 0; i < arg; i++) {
+      for (let j = 0; j < arg; j++) {
+        process.stdout.write('X');
+      }
+      console.log();
+    }
+  }
 } else {
-	for (var i = 0; i < arg; i++) {
-		for (var j = 0; j < arg; j++) {
-			console.log('X');
-		}
-		console.log()
-	}
+  console.log('Missing size');
 }
