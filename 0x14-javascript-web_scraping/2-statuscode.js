@@ -7,9 +7,9 @@
  * The module request is used
  *
  * Test with:
- * 	./2-statuscode.js https://alx-intranet.hbtn.io/status
+ *     ./2-statuscode.js https://alx-intranet.hbtn.io/status
  * code: 200
- * 	./2-statuscode.js https://alx-intranet.hbtn.io/doesnt_exist
+ *     ./2-statuscode.js https://alx-intranet.hbtn.io/doesnt_exist
  * code: 404
  *
  */
